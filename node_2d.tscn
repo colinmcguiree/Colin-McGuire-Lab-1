@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://4pqund3nukl7"]
+
+[ext_resource type="Texture2D" uid="uid://dyytnm6vx37mj" path="res://Pictures/icon.svg" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://bkxyl1iwyp4rk" path="res://Pictures/dogthing.png" id="2_epypp"]
+[ext_resource type="Texture2D" uid="uid://dmst8tfl4uflm" path="res://Pictures/Rocket_J._Squirrel.png" id="3_epypp"]
+[ext_resource type="Texture2D" uid="uid://bkhvxccnevcpb" path="res://Tree_PNG_Clip_Art-2890.png" id="4_0hol4"]
+
+[node name="MainScene" type="Node2D" unique_id=1592369616]
+
+[node name="Robot" type="Sprite2D" parent="." unique_id=1858734373]
+position = Vector2(152, 497.99997)
+scale = Vector2(-1.5816232, 1.6042615)
+texture = ExtResource("1_0e48y")
+
+[node name="Little Robot" type="Sprite2D" parent="Robot" unique_id=573103999]
+position = Vector2(-104.32322, 26.80362)
+scale = Vector2(-0.5290157, 0.4904606)
+texture = ExtResource("1_0e48y")
+
+[node name="dogthing" type="Sprite2D" parent="." unique_id=1437203269]
+position = Vector2(485.54904, 497.49997)
+rotation = 3.1415925
+scale = Vector2(0.07147101, -0.07507884)
+texture = ExtResource("2_epypp")
+
+[node name="RocketJ_Squirrel" type="Sprite2D" parent="." unique_id=1538640165]
+position = Vector2(668.549, 487.5)
+scale = Vector2(0.6550633, 0.6677215)
+texture = ExtResource("3_epypp")
+
+[node name="Forest" type="Node2D" parent="." unique_id=870944446]
+position = Vector2(870, 623)
+
+[node name="BigTree" type="Sprite2D" parent="Forest" unique_id=1636210281]
+position = Vector2(47.000023, -198.00002)
+scale = Vector2(0.58413476, 0.58400005)
+texture = ExtResource("4_0hol4")
+
+[node name="LittleTree" type="Sprite2D" parent="Forest" unique_id=1056855362]
+position = Vector2(203, -132)
+scale = Vector2(0.3412134, 0.34105605)
+texture = ExtResource("4_0hol4")
