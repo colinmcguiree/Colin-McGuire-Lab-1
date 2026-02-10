@@ -3,7 +3,9 @@
 [ext_resource type="Texture2D" uid="uid://dyytnm6vx37mj" path="res://Pictures/icon.svg" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://bkxyl1iwyp4rk" path="res://Pictures/dogthing.png" id="2_epypp"]
 [ext_resource type="Texture2D" uid="uid://dmst8tfl4uflm" path="res://Pictures/Rocket_J._Squirrel.png" id="3_epypp"]
-[ext_resource type="Texture2D" uid="uid://bkhvxccnevcpb" path="res://Tree_PNG_Clip_Art-2890.png" id="4_0hol4"]
+[ext_resource type="Texture2D" uid="uid://bkhvxccnevcpb" path="res://Pictures/Tree_PNG_Clip_Art-2890.png" id="4_0hol4"]
+[ext_resource type="PackedScene" uid="uid://cl5eaekxll7ek" path="res://tree.tscn" id="5_q6r6c"]
+[ext_resource type="PackedScene" uid="uid://becagsowffnhl" path="res://blue_sky.tscn" id="6_kdubu"]
 
 [node name="MainScene" type="Node2D" unique_id=1592369616]
 
@@ -40,3 +42,23 @@ texture = ExtResource("4_0hol4")
 position = Vector2(203, -132)
 scale = Vector2(0.3412134, 0.34105605)
 texture = ExtResource("4_0hol4")
+
+[node name="ColorRectTree" parent="Forest" unique_id=419483820 instance=ExtResource("5_q6r6c")]
+z_index = -2
+offset_left = -136.0
+offset_top = -217.0
+offset_right = 45.0
+offset_bottom = -145.0
+
+[node name="ColorRectTree2" parent="Forest/ColorRectTree" unique_id=1098273036 instance=ExtResource("5_q6r6c")]
+z_index = -2
+layout_mode = 0
+offset_left = -522.0
+offset_top = -10.0
+offset_right = -341.0
+offset_bottom = 62.0
+
+[node name="BlueSky" parent="." unique_id=831045857 instance=ExtResource("6_kdubu")]
+z_index = -7
+offset_top = -11.0
+offset_bottom = 640.0

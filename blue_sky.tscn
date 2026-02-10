@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://becagsowffnhl"]
+
+[node name="BlueSky" type="ColorRect" unique_id=831045857]
+offset_right = 1154.0
+offset_bottom = 651.0
+color = Color(0.70623714, 0.8803787, 0.98890764, 1)
+
+[node name="GreenGrass" type="ColorRect" parent="." unique_id=1518915537]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.017
+anchor_bottom = 0.763
+offset_left = -11.0
+offset_top = 536.0
+offset_right = 1136.382
+offset_bottom = 156.28699
+color = Color(0.6435615, 0.9682973, 0.4017796, 1)
